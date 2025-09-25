@@ -6,7 +6,7 @@ fun main() {
     val segons = scanner.nextInt()
     var resultat = segons + 1
     if(resultat >= 60) {
-        resultat = resultat * 0
+        resultat = 0
     }
     println(resultat)
 }
